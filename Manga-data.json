@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Naruto",
+    "summary": "Naruto Uzumaki, a young ninja with dreams of becoming the strongest leader, embarks on adventures to protect his village.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+    "author": "Masashi Kishimoto",
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "publicationYear": 1999
+  },
+  {
+    "title": "One Piece",
+    "summary": "Monkey D. Luffy sets sail with his crew in search of the ultimate treasure, the One Piece, to become Pirate King.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/6/65/OnePieceVolume1Cover.jpg",
+    "author": "Eiichiro Oda",
+    "genres": ["Adventure", "Comedy", "Fantasy"],
+    "publicationYear": 1997
+  },
+  {
+    "title": "Attack on Titan",
+    "summary": "Humanity fights for survival against gigantic humanoid Titans in a world where freedom is a distant dream.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/7a/Attack_on_Titan_S2_poster.jpg",
+    "author": "Hajime Isayama",
+    "genres": ["Action", "Drama", "Fantasy"],
+    "publicationYear": 2009
+  },
+  {
+    "title": "Death Note",
+    "summary": "A high school student gains a supernatural notebook that allows him to kill anyone whose name he writes in it.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1_cover.jpg",
+    "author": "Tsugumi Ohba",
+    "genres": ["Mystery", "Psychological", "Supernatural"],
+    "publicationYear": 2003
+  },
+  {
+    "title": "My Hero Academia",
+    "summary": "In a world where most people have superpowers called Quirks, a boy without powers dreams of becoming a hero.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/5/5a/My_Hero_Academia_Volume_1_cover.jpg",
+    "author": "Kohei Horikoshi",
+    "genres": ["Action", "Superhero", "Fantasy"],
+    "publicationYear": 2014
+  },
+  {
+    "title": "Fullmetal Alchemist",
+    "summary": "Two brothers use alchemy to search for the Philosopher’s Stone to restore their bodies after a failed experiment.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/5/5e/Fullmetal_Alchemist_manga_volume_1.jpg",
+    "author": "Hiromu Arakawa",
+    "genres": ["Adventure", "Fantasy", "Drama"],
+    "publicationYear": 2001
+  },
+  {
+    "title": "Tokyo Ghoul",
+    "summary": "After a deadly encounter, a college student becomes a half-ghoul and struggles to live between two worlds.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/7/74/Tokyo_Ghoul_volume_1_cover.jpg",
+    "author": "Sui Ishida",
+    "genres": ["Horror", "Action", "Supernatural"],
+    "publicationYear": 2011
+  },
+  {
+    "title": "Demon Slayer",
+    "summary": "A young boy becomes a demon slayer to avenge his family and cure his sister who turned into a demon.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/3/33/Demon_Slayer_Volume_1.jpg",
+    "author": "Koyoharu Gotouge",
+    "genres": ["Action", "Adventure", "Supernatural"],
+    "publicationYear": 2016
+  },
+  {
+    "title": "Bleach",
+    "summary": "Ichigo Kurosaki becomes a Soul Reaper and fights evil spirits to protect the living world.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/6/65/Bleach_Volume_1_Cover.jpg",
+    "author": "Tite Kubo",
+    "genres": ["Action", "Supernatural", "Adventure"],
+    "publicationYear": 2001
+  },
+  {
+    "title": "Fairy Tail",
+    "summary": "A guild of powerful wizards takes on adventures and battles in a magical world.",
+    "coverImage": "https://upload.wikimedia.org/wikipedia/en/f/fd/FairyTailCoverV1.jpg",
+    "author": "Hiro Mashima",
+    "genres": ["Adventure", "Fantasy", "Action"],
+    "publicationYear": 2006
+  }
+]
