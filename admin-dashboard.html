@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Dashboard - AceNime</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #121212;
+      color: #eee;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav {
+      background: #2c2c2c;
+      padding: 0.5rem;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+    nav button {
+      background: #444;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+    }
+    nav button.active {
+      background: #f44336;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #222;
+      border-radius: 8px;
+      display: none;
+    }
+    section.active {
+      display: block;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea, select {
+      padding: 0.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button.submit-btn {
+      background: #f44336;
+      color: white;
+      border: none;
+      padding: 0.75rem;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-top: 1rem;
+    }
+    .login-container {
+      max-width: 350px;
+      margin: 5rem auto;
+      padding: 2rem;
+      background: #222;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .login-container input {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="login-screen" class="login-container">
+    <h2>Admin Login</h2>
+    <input type="password" id="admin-password" placeholder="Enter password" />
+    <button id="login-btn">Login</button>
+    <p id="login-error" style="color: #f44336; display:none;">Incorrect password</p>
+  </div>
+
+  <div id="admin-dashboard" style="display:none;">
+    <header>AceNime Admin Dashboard</header>
+    <nav>
+      <button class="tab-btn active" data-target="anime-section">Anime</button>
+      <button class="tab-btn" data-target="manga-section">Manga</button>
+      <button class="tab-btn" data-target="reviews-section">Reviews</button>
+      <button class="tab-btn" data-target="fights-section">Fights</button>
+      <button class="tab-btn" data-target="motivation-section">Motivation</button>
+      <button id="logout-btn" style="margin-left:auto; background:#555;">Logout</button>
+    </nav>
+
+    <section id="anime-section" class="active">
+      <h3>Add / Edit Anime</h3>
+      <form id="anime-form">
+        <label>Title</label>
+        <input type="text" id="anime-title" required />
+        <label>Description</label>
+        <textarea id="anime-description" required></textarea>
+        <label>Cover Image URL</label>
+        <input type="url" id="anime-cover" required />
+        <label>Trailer URL</label>
+        <input type="url" id="anime-trailer" />
+        <label>Genre (comma separated)</label>
+        <input type="text" id="anime-genres" required />
+        <label>Release Year</label>
+        <input type="number" id="anime-year" min="1900" max="2100" required />
+        <button type="submit" class="submit-btn">Save Anime</button>
+      </form>
+    </section>
+
+    <section id="manga-section">
+      <h3>Add / Edit Manga</h3>
+      <form id="manga-form">
+        <label>Title</label>
+        <input type="text" id="manga-title" required />
+        <label>Summary</label>
+        <textarea id="manga-summary" required></textarea>
+        <label>Cover Image URL</label>
+        <input type="url" id="manga-cover" required />
+        <label>Author</label>
+        <input type="text" id="manga-author" required />
+        <label>Genres (comma separated)</label>
+        <input type="text" id="manga-genres" required />
+        <label>Publication Year</label>
+        <input type="number" id="manga-year" min="1900" max="2100" required />
+        <button type="submit" class="submit-btn">Save Manga</button>
+      </form>
+    </section>
+
+    <section id="reviews-section">
+      <h3>Add / Edit Review</h3>
+      <form id="review-form">
+        <label>Anime Title</label>
+        <input type="text" id="review-anime-title" required />
+        <label>Reviewer Name</label>
+        <input type="text" id="reviewer-name" required />
+        <label>Review Title</label>
+        <input type="text" id="review-title" />
+        <label>Review Text</label>
+        <textarea id="review-text" required></textarea>
+        <label>Rating (1-5)</label>
+        <input type="number" id="review-rating" min="1" max="5" step="0.1" required />
+        <label>Review Date</label>
+        <input type="date" id="review-date" required />
+        <label>Spoiler</label>
+        <select id="review-spoiler">
+          <option value="false" selected>No</option>
+          <option value="true">Yes</option>
+        </select>
+        <button type="submit" class="submit-btn">Save Review</button>
+      </form>
+    </section>
+
+    <section id="fights-section">
+      <h3>Add / Edit Fight</h3>
+      <form id="fight-form">
+        <label>Anime Name</label>
+        <input type="text" id="fight-anime-name" required />
+        <label>Characters Involved (comma separated)</label>
+        <input type="text" id="fight-characters" required />
+        <label>Fight Description</label>
+        <textarea id="fight-description" required></textarea>
+        <label>Fight Video URL</label>
+        <input type="url" id="fight-video" />
+        <label>Fight Image URL</label>
+        <input type="url" id="fight-image" />
+        <button type="submit" class="submit-btn">Save Fight</button>
+      </form>
+    </section>
+
+    <section id="motivation-section">
+      <h3>Add / Edit Motivational Quote</h3>
+      <form id="motivation-form">
+        <label>Quote Text</label>
+        <textarea id="quote-text" required></textarea>
+        <label>Character Name</label>
+        <input type="text" id="quote-character-name" required />
+        <label>Anime Title</label>
+        <input type="text" id="quote-anime-title" required />
+        <label>Character Image URL</label>
+        <input type="url" id="quote-character-image" />
+        <button type="submit" class="submit-btn">Save Quote</button>
+      </form>
+    </section>
+  </div>
+
+  <script>
+    const password = 'admin123'; // CHANGE THIS to your secure password
+    const loginScreen = document.getElementById('login-screen');
+    const dashboard = document.getElementById('admin-dashboard');
+    const loginBtn = document.getElementById('login-btn');
+    const loginError = document.getElementById('login-error');
+    const logoutBtn = document.getElementById('logout-btn');
+
+    loginBtn.addEventListener('click', () => {
+      const inputPwd = document.getElementById('admin-password').value;
+      if (inputPwd === password) {
+        loginScreen.style.display = 'none';
+        dashboard.style.display = 'block';
+      } else {
+        loginError.style.display = 'block';
+      }
+    });
+
+    logoutBtn.addEventListener('click', () => {
+      dashboard.style.display = 'none';
+      loginScreen.style.display = 'block';
+      document.getElementById('admin-password').value = '';
+      loginError.style.display = 'none';
+    });
+
+    // Tab navigation
+    const tabButtons = document.querySelectorAll('nav .tab-btn');
+    const sections = document.querySelectorAll('section');
+
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const target = btn.getAttribute('data-target');
+        sections.forEach(sec => {
+          sec.classList.toggle('active', sec.id === target);
+        });
+      });
+    });
+
+    // Placeholder: Add your logic here to save/update JSON data
+    // For now, just alert form data on submit
+
+    function handleFormSubmit(formId) {
+      const form = document.getElementById(formId);
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        alert(`Saving data from form: ${formId}\n(Implement saving logic here)`);
+        form.reset();
+      });
+    }
+
+    ['anime-form', 'manga-form', 'review-form', 'fight-form', 'motivation-form'].forEach(handleFormSubmit);
+  </script>
+</body>
+                                     </html>
