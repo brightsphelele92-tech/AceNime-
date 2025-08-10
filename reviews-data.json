@@ -1,0 +1,202 @@
+[
+  {
+    "animeTitle": "Naruto",
+    "reviewerName": "Lily",
+    "reviewTitle": "An Epic Ninja Journey",
+    "reviewText": "Naruto’s journey from outcast to hero is inspiring. The character development and fight scenes kept me hooked.",
+    "rating": 5,
+    "reviewDate": "2023-07-12",
+    "spoiler": false,
+    "commentCount": 12
+  },
+  {
+    "animeTitle": "Attack on Titan",
+    "reviewerName": "Mark",
+    "reviewTitle": "Dark and Gripping",
+    "reviewText": "The story’s twists and dark atmosphere are incredible. The animation is top-notch and intense.",
+    "rating": 4.8,
+    "reviewDate": "2023-06-30",
+    "spoiler": true,
+    "commentCount": 22
+  },
+  {
+    "animeTitle": "My Hero Academia",
+    "reviewerName": "Sophia",
+    "reviewTitle": "Great Superhero Anime",
+    "reviewText": "A heartfelt story with solid action scenes. Loved the character growth throughout the series.",
+    "rating": 4.5,
+    "reviewDate": "2023-08-01",
+    "spoiler": false,
+    "commentCount": 8
+  },
+  {
+    "animeTitle": "Death Note",
+    "reviewerName": "James",
+    "reviewTitle": "Mind-Bending Thriller",
+    "reviewText": "Light and L’s battle of wits is legendary. The moral questions raised are thought-provoking and well presented.",
+    "rating": 5,
+    "reviewDate": "2023-07-15",
+    "spoiler": true,
+    "commentCount": 15
+  },
+  {
+    "animeTitle": "Demon Slayer",
+    "reviewerName": "Emma",
+    "reviewTitle": "Beautiful and Emotional",
+    "reviewText": "Stunning animation combined with a touching story. Tanjiro’s love for his sister made me emotional.",
+    "rating": 4.7,
+    "reviewDate": "2023-07-20",
+    "spoiler": false,
+    "commentCount": 10
+  },
+  {
+    "animeTitle": "One Piece",
+    "reviewerName": "Carlos",
+    "reviewTitle": "Endless Adventure",
+    "reviewText": "The camaraderie of the Straw Hats and world-building makes this anime a must-watch for everyone.",
+    "rating": 4.9,
+    "reviewDate": "2023-08-05",
+    "spoiler": false,
+    "commentCount": 18
+  },
+  {
+    "animeTitle": "Tokyo Ghoul",
+    "reviewerName": "Maya",
+    "reviewTitle": "Dark and Emotional",
+    "reviewText": "Violent yet emotionally rich, exploring identity and survival in a harsh world.",
+    "rating": 4.3,
+    "reviewDate": "2023-07-25",
+    "spoiler": true,
+    "commentCount": 7
+  },
+  {
+    "animeTitle": "Fullmetal Alchemist",
+    "reviewerName": "Oliver",
+    "reviewTitle": "Epic and Thoughtful",
+    "reviewText": "Brotherhood, sacrifice, and alchemy combine in one of the best anime ever made.",
+    "rating": 5,
+    "reviewDate": "2023-06-28",
+    "spoiler": false,
+    "commentCount": 20
+  },
+  {
+    "animeTitle": "Bleach",
+    "reviewerName": "Nina",
+    "reviewTitle": "Good but Flawed",
+    "reviewText": "Great action and world but filler arcs slow down the story sometimes.",
+    "rating": 4,
+    "reviewDate": "2023-07-10",
+    "spoiler": false,
+    "commentCount": 5
+  },
+  {
+    "animeTitle": "Fairy Tail",
+    "reviewerName": "Ethan",
+    "reviewTitle": "Fun Magical Adventure",
+    "reviewText": "Strong friendships and magical battles, though somewhat predictable storylines.",
+    "rating": 4.2,
+    "reviewDate": "2023-08-03",
+    "spoiler": false,
+    "commentCount": 6
+  },
+  {
+    "animeTitle": "Black Clover",
+    "reviewerName": "Anna",
+    "reviewTitle": "Underdog Magic",
+    "reviewText": "A great underdog story with plenty of magic and action to keep you entertained.",
+    "rating": 4.1,
+    "reviewDate": "2023-07-18",
+    "spoiler": false,
+    "commentCount": 9
+  },
+  {
+    "animeTitle": "Hunter × Hunter",
+    "reviewerName": "Leo",
+    "reviewTitle": "Complex and Unique",
+    "reviewText": "Complex characters and unpredictable plot make this anime a unique masterpiece.",
+    "rating": 4.9,
+    "reviewDate": "2023-06-22",
+    "spoiler": true,
+    "commentCount": 14
+  },
+  {
+    "animeTitle": "Tokyo Revengers",
+    "reviewerName": "Mia",
+    "reviewTitle": "Time Travel Drama",
+    "reviewText": "A gripping story of friendship, regret, and second chances with great action scenes.",
+    "rating": 4.3,
+    "reviewDate": "2023-07-30",
+    "spoiler": false,
+    "commentCount": 11
+  },
+  {
+    "animeTitle": "Chainsaw Man",
+    "reviewerName": "Jake",
+    "reviewTitle": "Violent and Darkly Funny",
+    "reviewText": "A bloody wild ride with dark humor and unique characters.",
+    "rating": 4.6,
+    "reviewDate": "2023-08-06",
+    "spoiler": true,
+    "commentCount": 13
+  },
+  {
+    "animeTitle": "Jujutsu Kaisen",
+    "reviewerName": "Zoe",
+    "reviewTitle": "Exciting and Stylish",
+    "reviewText": "Great fight choreography and a gripping supernatural story.",
+    "rating": 4.8,
+    "reviewDate": "2023-07-27",
+    "spoiler": false,
+    "commentCount": 16
+  },
+  {
+    "animeTitle": "Naruto",
+    "reviewerName": "Sam",
+    "reviewTitle": "Classic Shonen",
+    "reviewText": "While sometimes repetitive, the story and characters are memorable and iconic.",
+    "rating": 4.4,
+    "reviewDate": "2023-07-14",
+    "spoiler": false,
+    "commentCount": 8
+  },
+  {
+    "animeTitle": "Attack on Titan",
+    "reviewerName": "Olivia",
+    "reviewTitle": "Intense and Emotional",
+    "reviewText": "One of the most intense anime with deep emotional storytelling and epic battles.",
+    "rating": 5,
+    "reviewDate": "2023-07-02",
+    "spoiler": true,
+    "commentCount": 19
+  },
+  {
+    "animeTitle": "My Hero Academia",
+    "reviewerName": "Liam",
+    "reviewTitle": "Inspiring Hero Story",
+    "reviewText": "Loved the themes of hope and friendship, and the well-animated fight scenes.",
+    "rating": 4.7,
+    "reviewDate": "2023-08-08",
+    "spoiler": false,
+    "commentCount": 10
+  },
+  {
+    "animeTitle": "Death Note",
+    "reviewerName": "Chloe",
+    "reviewTitle": "Clever and Dark",
+    "reviewText": "A thrilling battle of intellect that keeps you hooked until the end.",
+    "rating": 5,
+    "reviewDate": "2023-07-16",
+    "spoiler": true,
+    "commentCount": 17
+  },
+  {
+    "animeTitle": "Demon Slayer",
+    "reviewerName": "Ethan",
+    "reviewTitle": "Visually Stunning",
+    "reviewText": "Beautiful animation paired with a heartfelt story. The emotional moments hit hard.",
+    "rating": 4.6,
+    "reviewDate": "2023-07-22",
+    "spoiler": false,
+    "commentCount": 14
+  }
+]
