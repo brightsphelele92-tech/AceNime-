@@ -1,0 +1,72 @@
+[
+  {
+    "animeName": "Naruto",
+    "charactersInvolved": ["Naruto Uzumaki", "Sasuke Uchiha"],
+    "fightDescription": "A fierce battle between Naruto and Sasuke at the Valley of the End, where both friends clash with all their power.",
+    "fightVideo": "https://www.youtube.com/watch?v=V5by4TyNMG0",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg"
+  },
+  {
+    "animeName": "Attack on Titan",
+    "charactersInvolved": ["Eren Yeager", "Reiner Braun"],
+    "fightDescription": "Eren battles Reiner in their titan forms during a desperate fight to protect humanity.",
+    "fightVideo": "https://www.youtube.com/watch?v=ev9y7n6_WUA",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/7/7a/Attack_on_Titan_S2_poster.jpg"
+  },
+  {
+    "animeName": "My Hero Academia",
+    "charactersInvolved": ["Izuku Midoriya", "Katsuki Bakugo"],
+    "fightDescription": "A heated showdown between two childhood friends testing their quirks and resolve.",
+    "fightVideo": "https://www.youtube.com/watch?v=gJ9Hf6QxzFk",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/5/5a/My_Hero_Academia_Volume_1_cover.jpg"
+  },
+  {
+    "animeName": "Death Note",
+    "charactersInvolved": ["Light Yagami", "L Lawliet"],
+    "fightDescription": "A psychological battle of wit and strategy between Light and L as they try to outsmart each other.",
+    "fightVideo": "https://www.youtube.com/watch?v=5-y2mU-Wqfc",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1_cover.jpg"
+  },
+  {
+    "animeName": "Demon Slayer",
+    "charactersInvolved": ["Tanjiro Kamado", "Muzan Kibutsuji"],
+    "fightDescription": "The climactic battle where Tanjiro faces the demon king Muzan to save humanity.",
+    "fightVideo": "https://www.youtube.com/watch?v=ZXkt4w0o4NY",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/3/33/Demon_Slayer_Volume_1.jpg"
+  },
+  {
+    "animeName": "One Piece",
+    "charactersInvolved": ["Monkey D. Luffy", "Kaido"],
+    "fightDescription": "Luffy takes on the formidable Yonko Kaido in an epic and intense battle for freedom.",
+    "fightVideo": "https://www.youtube.com/watch?v=9VHxQK9GZ9M",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/6/65/OnePieceVolume1Cover.jpg"
+  },
+  {
+    "animeName": "Tokyo Ghoul",
+    "charactersInvolved": ["Ken Kaneki", "Jason"],
+    "fightDescription": "Kaneki fights the sadistic ghoul Jason in a brutal and transformative battle.",
+    "fightVideo": "https://www.youtube.com/watch?v=f0we-BUrLvY",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/7/74/Tokyo_Ghoul_volume_1_cover.jpg"
+  },
+  {
+    "animeName": "Fullmetal Alchemist",
+    "charactersInvolved": ["Edward Elric", "Father"],
+    "fightDescription": "Edward confronts the homunculus Father in a battle that decides the fate of the world.",
+    "fightVideo": "https://www.youtube.com/watch?v=ZWQvuG0zULM",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/5/5e/Fullmetal_Alchemist_manga_volume_1.jpg"
+  },
+  {
+    "animeName": "Bleach",
+    "charactersInvolved": ["Ichigo Kurosaki", "Byakuya Kuchiki"],
+    "fightDescription": "Ichigo fights Byakuya in a high-stakes duel to save his friend and prove his strength.",
+    "fightVideo": "https://www.youtube.com/watch?v=4jBYm5Cmv4M",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/6/65/Bleach_Volume_1_Cover.jpg"
+  },
+  {
+    "animeName": "Fairy Tail",
+    "charactersInvolved": ["Natsu Dragneel", "Zeref"],
+    "fightDescription": "Natsu faces off against the dark wizard Zeref in an emotional and destructive fight.",
+    "fightVideo": "https://www.youtube.com/watch?v=kDj5bzLGTCk",
+    "fightImage": "https://upload.wikimedia.org/wikipedia/en/f/fd/FairyTailCoverV1.jpg"
+  }
+    ]
